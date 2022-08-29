@@ -1,0 +1,24 @@
+name: SuchtPlot
+main: galaxygamer088\SuchtPlot\SuchtPlot
+author: galaxygamer088
+version: 0.0.1
+api: 4.0.0
+commands:
+  suchtplot:
+    description: generiert eine Plot welt
+    permission: "plot.op"
+
+  roadmap:
+    description: generiert RoadMap welt
+    permission: "plot.op"
+
+  p:
+    description: SuchtPlot
+    permission: "plot.player"
+
+permissions:
+  plot.player:
+    default: true
+
+  plot.op:
+    default: op
