@@ -1,0 +1,176 @@
+---
+Options:
+  #Only use SeeOwnProfile to test this plugin alone
+  SeeOwnProfile: "false"
+  RegisterMessages: 20
+  SearchPlayerRadius: 30
+
+
+IgnoreWorldFromEvents:
+  1: mine
+
+
+Ranks:
+  1:
+    RankName: Test-Supporter
+    EditReports: true
+    Mute: true
+    Kick: true
+    Ban: false
+    PermaBan: false
+  2:
+    RankName: Supporter
+    EditReports: true
+    Mute: true
+    Kick: true
+    Ban: true
+    PermaBan: false
+
+
+Message:
+  Logo: §b[§d§lD§fS§r§b]
+
+  Reported: §aReport wurde registriert und wird in kürze Bearbeitet
+  ReportInfo: §aEs wurde ein neuer Report erstellt
+  FailSearchPlayer: §cSpieler konnte nicht gefunden werden!
+  SystemMessage: <System> Beginn des Chats
+  ServerRestart: Server wurde gerestartet
+
+  Table_1:
+    Title: §eSpielerListe
+    Content: Wähle einen Spieler aus den du verwalten möchtest
+    Close: §cZurück
+    Search: Suchen
+    MyProfile: Mein Profil
+
+  Table_2:
+    Title: §eProfile von
+    Content: Wähle aus was du sehen / verwalten möchtest
+    Info: Informationen
+    Report: Spieler Melden
+    MassageHistory: Nachrichten Verlauf
+    Mute: Mute
+    Kick: Kicken
+    Ban: Bannen
+    Close: §cZurück
+
+  Table_3:
+    Title: §eInformationen zu
+    JoinDate: Erstes mal Beigetreten am
+    PlayerId: SpielerId
+    OreBreak: Erze abgebaut
+    Coal: Kohle
+    Iron: Eisen
+    Gold: Gold
+    Redstone: Redstone
+    Lapis: Lapis
+    Emerald: Smaragte
+    Diamond: Diamanten
+    Close: §cZurück
+
+  Table_4:
+    Title: §eReport
+    Content: Gib alle einzelheiten an warum du den Spieler reporten möchtest
+    Hacking: Hacking
+    Advertising: Werbung
+    Insult: Beleidigung
+    Spamming: Spamming
+    Griefing: Griefing
+    BugAbusing: Bug Ausnutzung
+    WrongIdentity: Falsche Identität
+    ExtraInfo: Extra Informationen
+    ReasonReport: Grund des Reports
+    ReportFrom: Reportet von
+    CreatedAt: Erstellt am
+
+  Table_5:
+    Title: §eReport Liste
+    Content: Hier siehst du alle Reports die Erstellt worden
+    Close: §cZurück
+
+  Table_6:
+    Title: §eReport Liste von
+    Content: Hier siehst du alle neuen Reports von dem Spieler
+    Close: §cZurück
+    OldReports: Alte Reports
+
+  Table_7:
+    Title: §eReport Bearbeiten
+    CompleteReport: Report abschließen
+    PlayerProfile: Spieler Profil
+    EditFrom: Bearbeitet von
+    Close: §cZurück
+
+  Table_8:
+    Title: §eAlte Report Liste von
+    Content: Hier siehst du alle alten Reports vom Spieler
+    Close: §cZurück
+
+  Table_9:
+    Title: §eNachrichten Verlauf
+    Close: §cZurück
+
+  Table_10:
+    Title: §eSpieler Suchen
+    Content: Wähle aus wie du den Spieler suchen möchtest
+    PlayerChat: Spieler Chat
+    PlayerName: Spieler Name
+    PlayerId: Spieler Id
+    InWorld: In Welt
+    InArea: In der Nähe
+    Close: §cZurück
+
+  Table_11:
+    Title: §eSpieler Suche
+    Content: Suche die nachricht herraus und gib die Id an (links von der Nachricht)
+    LastMessages: Letzte Nachrichten
+    ChooseMessage: Nachricht Auswählen
+
+  Table_12:
+    Title: §eSpieler Suchen
+    Content: Schreibe in das kästchen den Spieler Namen
+    Close: §cZurück
+
+  Table_13:
+    Title: §eSpieler Suchen
+    Content: Schreibe in das kästchen die Spieler Id
+
+  Table_14:
+    Title: §eSpieler Suchen
+    Content: Hier werden alle Spieler angezeigt die in deiner Welt sind
+    Close: §cZurück
+
+  Table_15:
+    Title: §eSpieler Suchen
+    Content: Hier werden alle Spieler in deiner Nähe angezeigt
+    Area: Radius
+    Close: §cZurück
+
+  Table_16:
+    Title: §cSpieler Bannen
+    Content: Wähle aus wie lange der Spieler gebannt werden soll
+    PermaBan: Perma Ban
+    Minutes: Minute(n)
+    Hours: Stunde(n)
+    Days: Tag(e)
+    Months: Monat(e)
+    Years: Jahr(e)
+    PlayerPermaBan: Du wurdest vom Server für immer gebannt
+    PlayerTimeBan: Du wurdest vom Server gebannt bis zum
+    Reason: Begründung
+
+  Table_17:
+    Title: §cSpieler Muten
+    Content: Wähle aus wie lange der Spieler gemutet werden soll
+    PlayerMute: Du kannst nicht mehr am Chat teilnehmen bis zum
+
+  Table_18:
+    Title: §cSpieler Kicken
+    Content: Gib einen Grund an warum du den Spieler kicken möchtest
+    PlayerKick: Du wurdest vom Server geschmissen
+
+  Table_19:
+    Title: Ban Liste
+    Content: Hier siehst du alle Spieler die gepermabannt, gebannt oder gemutet sind
+    Close: §cZurück
+...
